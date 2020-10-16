@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ImagenPrincipal"
+        android:layout_width="420dp"
+        android:layout_height="432dp"
+        app:srcCompat="@mipmap/app"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/Titulo"
+        android:layout_width="787dp"
+        android:layout_height="225dp"
+        app:srcCompat="@mipmap/font_rend"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Button
+        android:id="@+id/BotonMenu"
+        android:layout_width="203dp"
+        android:layout_height="88dp"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="67dp"
+        android:text="Creado por Micaela"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="686dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
